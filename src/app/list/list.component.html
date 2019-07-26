@@ -1,0 +1,14 @@
+<div style="text-align:center">
+  <h1>Get all data from API.(https://api.myjson.com/bins/habls)</h1>
+</div>
+
+<table class="table table-striped mytable">
+  <tr>
+    <th>Car Name</th>
+    <th>Car Model</th>
+  </tr>
+  <tr *ngFor="let car of myCars">
+    <td>{{ car.name }}</td>
+    <td>{{ car.models }}</td>
+  </tr>
+</table>
